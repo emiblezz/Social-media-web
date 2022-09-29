@@ -1,0 +1,245 @@
+/* Everything */
+body,html{
+    width:100%;
+    height:100%;
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Whole page */
+
+
+
+/* navbar */
+menu {
+    height:100vh;
+    width:100%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding-right:10px;
+    padding-left:10px;
+    padding-top:40px;
+    align-text:center;
+    flex-diction: row;
+    background-color:rgb(92, 118, 233);
+}
+h1 {
+    color: red;
+    font-size:32;
+    display:flex;
+    flex-direction:row;
+}
+
+nav ul li{
+    list-style-type:none;
+    display:inline-block;
+    padding: 20px 10px;
+}
+nav ul li a{
+    font-weight: bold;
+    color: red;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: blue;
+    transition: 0.3s;
+}
+/* a tags */
+a{
+    text-decoration: none;
+    color: palevioletred;
+    font-size:28px;
+}
+/* form */
+.form-box{
+    width:380px;
+    height:90vh;
+    position:relative;
+    margin:2% auto;
+    background-color: rgb(92, 118, 233);
+    padding: 10px;
+    overflow: hidden;
+    border-radius:25px;
+}
+
+.button-box{
+    width:220px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 20px 9px rgb(6, 175, 226);
+    border-radius: 30px;
+    display: flex;
+}
+
+.toggle-btn{
+    padding: 10px 30px;
+    cursor: pointer;
+    background:transparent;
+    border: 0;
+    outline: none;
+    position:relative;
+    color: white;
+}
+
+#register .input-field{
+    padding: 10px 0 0 0;
+}
+
+#btn{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 110px;
+    height: 100%;
+    background: rgb(241, 20, 20);
+    border-radius: 30px;
+    transition:.5s;
+}
+
+.input-group-login{
+    top: 150px;
+    position: absolute;
+    width:280px;
+    transition:.5s;
+}
+
+.input-group-register{
+    top: 120px;
+    position: absolute;
+    width:280px;
+    transition:.5s;
+}
+
+.input-field{
+    width:100%;
+    padding: 10px 0;
+    margin:5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right:0;
+    border-bottom: 1px solid rgb(158, 157, 157);
+    outline: none;
+    background: transparent;
+}
+
+.submit-btn{
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background:  rgb(241, 20, 20);
+    border: 0;
+    border-radius: 30px;
+    color: white;
+}
+
+.check-box{
+    margin: 30px 10px 34px 0px;
+}
+
+span{
+    color:white;
+    font-size:12px;
+    bottom: 68px;
+    position:absolute;
+    margin: 0px;
+
+}
+::placeholder{
+    color: silver;
+}
+
+#login{
+    left: 50px;
+}
+
+#login input{
+    color: white;
+    font-size:15;
+}
+
+#register{
+    left:450px;
+}
+#register input{
+    color: white;
+    font-size: 15;
+}
+
+#title1{
+    margin: 0 auto;
+    box-shadow: 0 0 10px 9px rgb(6, 175, 226);
+    border-radius: 30px;
+    background-color: red;
+}
+#txt-area{
+    padding: 0;
+    
+}
+.container {
+    width:100%;
+    height:100vh;
+    over-flow: hidden;
+    background-image:url(https://media.istockphoto.com/illustrations/communication-contact-network-background-illustration-illustration-id1415992464?k=20&m=1415992464&s=612x612&w=0&h=UFYAxbVnWaenVlBLRLeAmph-knkN8e8b1sagVR0mPmQ=);
+    background-size:cover;
+    background-repeat: no-repeat;
+    animation:change 30s infinite ease-in-out;
+    justify-content: center;
+    text-align: center;
+    position:relative;
+    background-position:center;
+}
+.content{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.content{
+    font-size: 20px;
+    letter-spacing:15px;
+    color:white;
+}
+.content a{
+    background:#85c1ee;
+    color: white;
+    border-radius:20px;
+    font-size: 20px;
+    padding: 10px 20px;
+}
+.content a:hover{
+    background:purple;
+}
+@keyframes change{
+    0%
+    {
+        background-image:url(https://media.istockphoto.com/photos/machine-learning-hands-of-robot-and-human-touching-on-big-data-picture-id1206796363?k=20&m=1206796363&s=612x612&w=0&h=IapYt1UYr9kJGX7gunSjksvAGiiqF6DzB0GVo-BgLeE=);
+    }
+    20%
+    {
+        background-image:url(https://media.istockphoto.com/vectors/artificial-intelligence-technology-web-background-virtual-concept-vector-id1280193684?k=20&m=1280193684&s=612x612&w=0&h=xWID50oA_LxOM3qh6KkUEGQjBuxyXr_YFCHzS4rj_HA=);
+    }
+    40%
+    {
+        background-image:url(https://media.istockphoto.com/vectors/modern-science-or-technology-abstract-background-using-cogwheel-spot-vector-id1354854617?k=20&m=1354854617&s=612x612&w=0&h=PbqPHABOWsxeVAWCe8dx520yhfndxk3uFTQQU40f8es=);
+    }
+    60%
+    {
+        background-image:url(https://media.istockphoto.com/photos/abstract-digital-cyber-space-background-picture-id1280927712?k=20&m=1280927712&s=612x612&w=0&h=cO1npkdyW1pXSvGJdgsVDHqgq-yPJ4Ax9CJe4nyhLzM=);
+    }
+    80%
+    {
+        background-image:url(https://media.istockphoto.com/photos/digitizing-robot-hand-trying-to-catch-globe-picture-id1383940434?k=20&m=1383940434&s=612x612&w=0&h=O-mdi0ZjJQDZ8f_0Yrrk0QFsqUNwdyJ94H3bHmZ4Mn0=);
+    }
+    100%
+    {
+        background-image:url(https://media.istockphoto.com/photos/digitizing-robot-hand-trying-to-catch-globe-picture-id1383940434?k=20&m=1383940434&s=612x612&w=0&h=O-mdi0ZjJQDZ8f_0Yrrk0QFsqUNwdyJ94H3bHmZ4Mn0=);
+    }
+
+}
