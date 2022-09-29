@@ -29,7 +29,7 @@
                         <button type="button" onclick="loginBtn()" class="toggle-btn"> Log In</button>
                         <button type="button" onclick="registerBtn()" class="toggle-btn">Register</button>
                     </div>
-                    <!--Login form -->
+                    <!--Login form. -->
                     <form id="login" class="input-group-login" onsubmit="login()" method="get" name="loginForm">
                         <input type="text" id="Login-UserName"class="input-field" placeholder="User Name" required name="username">
                         <input type="password" class="input-field" placeholder="Password" required name="password">
