@@ -9,7 +9,7 @@ function login(){
         location.reload()
     }else{
         alert("Login successful");
-        document.loginForm.setAttribute("action", "social media.html");
+        document.loginForm.setAttribute("action", "https://github.com/emiblezz/Social-media-web/blob/main/JS%20WEB%20assignment/JS%20WEB%20assignment/social%20media.html");
     }
 }
 
