@@ -30,7 +30,7 @@ nav{
     padding-top:40px;
     align-text:center;
     flex-diction: row;
-    background:transparent;
+    background:gray;
     border-radius: 15px;
 }
 h1 {
@@ -171,6 +171,7 @@ span{
 
 #register{
     left:450px;
+    height:100vh;
 }
 #register input{
     color: white;
