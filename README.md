@@ -321,6 +321,6 @@ span{
                 z.style.left='0px';
             }
         </script>
-        <script src="auth.js"></script>
+        <script src="https://github.com/emiblezz/Social-media-web/blob/main/JS%20WEB%20assignment/JS%20WEB%20assignment/auth.js"></script>
     </body>
     </html>
